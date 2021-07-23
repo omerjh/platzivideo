@@ -1,0 +1,139 @@
+body{
+     margin: 0;
+     font-family: 'Muli', sans-serif;
+     /* background: linear-gradient(to right bottom, #051937, #47245f, #971968, #dc144e, #ff5800) no-repeat; */
+     /* background-image: url(https://i.ytimg.com/vi/JznuDZsBDL0/maxresdefault.jpg); */
+     background: no-repeat center center fixed url(https://estaticos-cdn.elperiodico.com/clip/cebf8a86-e92a-4b2b-a158-7fa4269d0e21_alta-libre-aspect-ratio_default_0.jpg);
+     background-size: cover;
+}
+.header{
+     align-items: center;
+     display: flex;
+     height: 100px;
+     justify-content: space-between;
+     top: 0px;
+     width: 100%;
+}
+.header__img{
+     margin-left: 30px;
+     width: 200px;
+}
+.login{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 0px 30px;
+     min-height: calc(100vh -200px);
+}
+
+.login__container{
+     background-color: rgba(255, 255, 255, 0.1);
+     border: 2px solid white;
+     border-radius: 40px;
+     color: white;
+     padding: 60px 68px 40px;
+     min-height: 700px;
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     box-shadow: 0px 0px 50px 0px rgb(154, 238, 151)
+
+
+}
+
+.login__container--form{
+     display: flex;
+     flex-direction: column;
+}
+
+.login__container--form label{
+     font-size: 14px;
+}
+
+.login__container--remember-me{
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+}
+.login__container--remember-me a{
+     color: white;
+     font-size: 14px;
+     text-decoration: none;
+}
+.login__container--remember-me a:hover{
+     text-decoration: underline;
+}
+
+.login__container--social-media > div{
+     display: flex;
+     align-items: center;
+     font-size: 14px;
+     margin-bottom: 10px;
+}
+.login__container--social-media > div > img{
+     width: 30px;
+     margin-right: 10px;
+}
+.login__container--register{
+     font-size: 14px;
+}
+.login__container--register a{
+     color: white;
+     font-size: 16px;
+     text-decoration: none;
+     font-weight: bold;
+}
+.login__container--register a:hover{
+     text-decoration: underline;
+}
+.input{
+     background-color: transparent;
+     border-top: 0px;
+     border-right: 0px;
+     border-left: 0px;
+     border-bottom: 2px solid white;
+     padding: 10px;
+     font-size: 16px;
+     font-family: 'Muli', sans-serif;
+     margin-bottom: 20px;
+     padding: 0px 20px;
+     outline: none;
+     height: 50px;
+}
+::placeholder{
+     color: white;
+}
+.button{
+     color: white;
+     background-color: rgba(255, 255, 255, 0.5);
+     height: 50px;
+     border-radius: 25px;
+     border: 0;
+     outline: none;
+     font-size: 16px;
+     font-weight: bold;
+     font-family: 'Muli', sans-serif;
+     cursor: pointer;
+     letter-spacing: 1px;
+     margin: 10px 0px;
+}
+.footer{
+     display: flex;
+     align-items: center;
+     height: 100px;
+     width: 100%;
+
+}
+.footer a{
+     color: white;
+     cursor: pointer;
+     padding-left: 30px;
+     font-size: 14px;
+     text-decoration: none;
+}
+.footer a:hover{
+     text-decoration: underline;
+}
